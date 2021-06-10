@@ -1,0 +1,10 @@
+{
+  "title": "Badaso Documentation",
+  "url": "http://badaso-docs.uatech.co.id/",
+  "logo": {
+    "light": "/logo-light.svg",
+    "dark": "/logo-dark.svg"
+  },
+  "github": "https://github.com/uasoft-indonesia/badaso-documentation",
+  "twitter": ""
+}
