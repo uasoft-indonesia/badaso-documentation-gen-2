@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Pengenalan
 description: 'The first & most advandced Open-Source headless PWA CMS based on Laravel + Vue'
 position: 1
 category: 'Getting Started'
@@ -21,10 +21,10 @@ features:
 <img src="/preview.png" class="light-img" width="1280" height="640" alt=""/>
 <img src="/preview-dark.png" class="dark-img" width="1280" height="640" alt=""/>
 
-Module for [Badaso](https://badaso.uatech.co.id/)
+Module untuk <a href="https://badaso.uatech.co.id/" target="_blank" class="font-bold">badaso</a>
 
-Welcome to the badaso documentation for version 1.0. This documentation will teach you how to install, configure, and use badaso so you can create some kick-ass stuff! 😎😎😎
+Selamat datang di dokumentasi badaso untuk versi 1.0. Dokumentasi ini akan mengajari kamu cara menginstal, mengkonfigurasi, dan menggunakan badaso sehingga kamu bisa membuat hal-hal keren! 😎😎😎
 
-<h2 class="text-2xl font-bold">Badaso Features</h2>
+<h2 class="text-2xl font-bold">Fitur dari badaso</h2>
 
 <list :items="features"></list>
