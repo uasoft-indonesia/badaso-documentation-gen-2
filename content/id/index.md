@@ -18,12 +18,10 @@ features:
   - Media manager
 ---
 
-<img src="/preview.png" class="light-img" width="1280" height="640" alt=""/>
-<img src="/preview-dark.png" class="dark-img" width="1280" height="640" alt=""/>
+<img src="/full-logo-badaso.png" class="light-img" width="1280" height="640" alt=""/>
+<img src="/full-logo-badaso-background-black.png" class="dark-img" width="1280" height="640" alt=""/>
 
-Module untuk <a href="https://badaso.uatech.co.id/" target="_blank" class="font-bold">badaso</a>
-
-Selamat datang di dokumentasi badaso untuk versi 1.0. Dokumentasi ini akan mengajari kamu cara menginstal, mengkonfigurasi, dan menggunakan badaso sehingga kamu bisa membuat hal-hal keren! 😎😎😎
+Selamat datang di dokumentasi badaso. Dokumentasi ini akan mengajari kamu cara menginstal, mengkonfigurasi, dan menggunakan badaso sehingga kamu bisa membuat hal-hal keren! 😎😎😎
 
 <h2 class="text-2xl font-bold">Fitur dari badaso</h2>
 
