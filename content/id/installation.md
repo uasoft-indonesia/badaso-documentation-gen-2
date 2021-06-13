@@ -37,8 +37,18 @@ Setelah mendapatkan lisensi, anda dapat melanjutkan ke instalasi badaso.
 
 - Menginstal badaso sangatlah mudah. Setelah laravel terinstal, kamu dapat menambahkan badaso dengan perintah berikut ini.
 
+<badge>v2.x</badge> For Laravel 8
+
 ```bash
 composer require uasoft-indonesia/badaso
+```
+
+<br />
+
+<badge>v1.x</badge> For Laravel 5, 6, 7
+
+```bash
+composer require uasoft-indonesia/badaso:^1.0
 ```
 
 - Jalankan perintah berikut untuk memperbarui dependensi di package.json, webpack, dan publish vendor provider.

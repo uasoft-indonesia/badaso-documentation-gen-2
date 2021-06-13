@@ -36,8 +36,18 @@ After getting the license, you can proceed to Badaso installation.
 
 - Badaso is easy to install. After creating your new Laravel application you can include the Badaso package with the following command.
 
+<badge>v2.x</badge> For Laravel 8
+
 ```bash
 composer require uasoft-indonesia/badaso
+```
+
+<br />
+
+<badge>v1.x</badge> For Laravel 5, 6, 7
+
+```bash
+composer require uasoft-indonesia/badaso:^1.0
 ```
 
 - Run the following commands to update dependencies in package.json, webpack and publish vendor provider.
