@@ -8,7 +8,7 @@ version: 1
 
 ## Persiapan
 
-Sebelum menggunakan badaso, Silahkan registrasi pada [badaso](https://badaso.uatech.co.id/) untuk mendapatkan `BADASO_LICENSE_KEY`. Key ini harus disertakan pada `.env` project laravel.
+Sebelum menggunakan badaso, Silahkan registrasi pada [badaso](https://badaso.uatech.co.id/dashboard) untuk mendapatkan `BADASO_LICENSE_KEY`. Key ini harus disertakan pada `.env` project laravel.
 Berikut langkah-langkah untuk mendaftar dan mendapatkan lisensi di badaso dashboard.
 
 - Pada halaman auth, klik "create an account" dan masukkan data Anda pada bidang yang diberikan.
