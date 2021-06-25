@@ -61,6 +61,16 @@ php artisan badaso:setup
 ```
 composer dump-autoload
 php artisan migrate
+```
+
+- Jalankan perintah seeder
+
+<badge>v2.x</badge> For Laravel 8
+```
+php artisan db:seed --class=Database\Seeders\Badaso\BadasoSeeder
+```
+<badge>v1.x</badge> For Laravel 5, 6, 7
+```
 php artisan db:seed --class=BadasoSeeder
 ```
 
