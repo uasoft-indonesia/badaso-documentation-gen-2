@@ -8,26 +8,18 @@ version: 1
 
 ## Preparation
 
-Before using Badaso, please register on [Badaso](https://badaso.uatech.co.id/dashboard) to get `BADASO_LICENSE_KEY`. This key must be included in the laravel project's `.env`. Here are the steps for registering and getting a license on Badaso Dashboard.
+Before using Badaso, you need to get licence for `BADASO_LICENSE_KEY`. This key must be included in the laravel project's `.env`. Here are the steps for registering and getting a license on Badaso.
 
-- On auth page, click "create an account" and enter your data on the given field.
-
-![register](/installation/dashboard-register.png)
-
-- Enter your validation token that send to your email.
-
-![verify](/installation/dashboard-verify.png)
-
-- After successful verification, you will be directed to the dashboard page.
+- Register on [Badaso](https://badaso.uatech.co.id/dashboard)
 
 - Your license can be obtained in the License menu (License).
 
 ![license](/installation/dashboard-licence.png)
 
-- Add license to your `.env`.
+- Save the license to your `.env` later.
 
 ```env [.env]
-BADASO_LICENSE_KEY=YOUR_LICENSE_KEY
+BADASO_LICENSE_KEY={your license}
 ```
 
 ## Installation Step
@@ -61,6 +53,15 @@ php artisan badaso:setup
 ```bash
 composer dump-autoload
 php artisan migrate
+```
+- Run the command seeder
+
+<badge>v2.x</badge> For Laravel 8
+```
+php artisan db:seed --class=Database\Seeders\Badaso\BadasoSeeder
+```
+<badge>v1.x</badge> For Laravel 5, 6, 7
+```
 php artisan db:seed --class=BadasoSeeder
 ```
 
@@ -74,6 +75,11 @@ php artisan badaso:admin your@email.com --create
 
 ```bash
 npm install
+npm run dev
 ```
 
 - Run your laravel project and access /badaso-dashboard path on your laravel.
+
+```bash
+php artisan serve
+```
