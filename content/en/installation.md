@@ -16,7 +16,7 @@ Before using Badaso, you need to get licence for `BADASO_LICENSE_KEY`. This key 
 
 ![license](/installation/dashboard-licence.png)
 
-- Save the license to your `.env` later.
+- Save the license for your `.env` later.
 
 ```env [.env]
 BADASO_LICENSE_KEY={your license}
@@ -26,7 +26,7 @@ BADASO_LICENSE_KEY={your license}
 
 After getting the license, you can proceed to Badaso installation.
 
-- Badaso is easy to install. After creating your new Laravel application you can include the Badaso package with the following command.
+- Badaso is easy to install. [After creating your new Laravel](https://laravel.com/docs/8.x/installation) application you can include the Badaso package with the following command.
 
 <badge>v2.x</badge> For Laravel 8
 
@@ -48,18 +48,22 @@ composer require uasoft-indonesia/badaso:^1.0
 php artisan badaso:setup
 ```
 
-- Run the following commands in sequence.
+- Run composer autoload, database migration & storage symlink.
 
 ```bash
 composer dump-autoload
 php artisan migrate
+php artisan storage:link
 ```
-- Run the command seeder
+- Run seeders
 
 <badge>v2.x</badge> For Laravel 8
 ```
-php artisan db:seed --class=Database\Seeders\Badaso\BadasoSeeder
+php artisan db:seed --class="Database\Seeders\Badaso\BadasoSeeder"
 ```
+
+<br/>
+
 <badge>v1.x</badge> For Laravel 5, 6, 7
 ```
 php artisan db:seed --class=BadasoSeeder

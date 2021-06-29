@@ -50,18 +50,21 @@ composer require uasoft-indonesia/badaso:^1.0
 php artisan badaso:setup
 ```
 
-- Jalankan perintah berikut ini secara berurutan.
+- Jalankan composer autoload, migrasi database & symlink storage
 ```
 composer dump-autoload
 php artisan migrate
+php artisan storage:link
 ```
 
 - Jalankan perintah seeder
 
 <badge>v2.x</badge> Untuk Laravel 8
 ```
-php artisan db:seed --class=Database\Seeders\Badaso\BadasoSeeder
+php artisan db:seed --class="Database\Seeders\Badaso\BadasoSeeder"
 ```
+<br/>
+
 <badge>v1.x</badge> Untuk Laravel 5, 6, 7
 ```
 php artisan db:seed --class=BadasoSeeder

@@ -19,6 +19,8 @@ Node:
   - Node 12.x
 NPM:
   - NPM 6.x
+Yarn:
+  - Yarn 1.22.x
 ---
 
 <alert>
@@ -50,3 +52,7 @@ Sebelum menginstal badaso, pastikan laravel yang kamu pakai didukung oleh badaso
 ## NPM
 
 <list :items="NPM"></list>
+
+## Yarn
+
+<list :items="Yarn"></list>
