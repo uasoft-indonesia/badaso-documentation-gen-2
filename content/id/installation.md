@@ -50,18 +50,32 @@ composer require uasoft-indonesia/badaso:^1.0
 php artisan badaso:setup
 ```
 
-- Jalankan perintah berikut ini secara berurutan.
+- Jalankan composer autoload & migrasi database.
 ```
 composer dump-autoload
 php artisan migrate
+```
+
+-  [optional] Symlink folder storage jika belum
+
+```
+php artisan storage:link
+```
+
+- [optional] Ubah filesystem driver menjadi `public` ([lihat disini untuk cloud](https://badaso-docs.uatech.co.id/core-concept/storage)) 
+
+```
+FILESYSTEM_DRIVER=public
 ```
 
 - Jalankan perintah seeder
 
 <badge>v2.x</badge> Untuk Laravel 8
 ```
-php artisan db:seed --class=Database\Seeders\Badaso\BadasoSeeder
+php artisan db:seed --class="Database\Seeders\Badaso\BadasoSeeder"
 ```
+<br/>
+
 <badge>v1.x</badge> Untuk Laravel 5, 6, 7
 ```
 php artisan db:seed --class=BadasoSeeder
