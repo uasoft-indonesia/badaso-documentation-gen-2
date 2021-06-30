@@ -18,10 +18,6 @@ Before using Badaso, you need to get licence for `BADASO_LICENSE_KEY`. This key 
 
 - Save the license for your `.env` later.
 
-```env [.env]
-BADASO_LICENSE_KEY={your license}
-```
-
 ## Installation Step
 
 After getting the license, you can proceed to Badaso installation.
@@ -85,6 +81,12 @@ php artisan db:seed --class=BadasoSeeder
 
 ```bash
 php artisan badaso:admin your@email.com --create
+```
+
+- Add your license that you got before, to your `.env`
+
+```env [.env]
+BADASO_LICENSE_KEY={your license}
 ```
 
 - Run the following command to install all of dependencies.

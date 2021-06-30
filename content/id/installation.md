@@ -18,11 +18,7 @@ Berikut langkah-langkah untuk mendaftar dan mendapatkan lisensi di badaso dashbo
 
 ![license](/installation/dashboard-licence.png)
 
-- Simpan untuk ditambahkan pada `.env` nanti.
-
-```env [.env]
-BADASO_LICENSE_KEY={your license}
-```
+- Simpan license yang didapatkan untuk ditambahkan pada `.env` nanti.
 
 ## Langkah Instalasi
 
@@ -84,6 +80,12 @@ php artisan db:seed --class=BadasoSeeder
 - Buat akun admin dengan cara mengetikan perintah berikut ini.
 ```
 php artisan badaso:admin your@email.com --create
+```
+
+- Tambahkan license yang telah didapatkan tadi pada `.env`
+
+```env [.env]
+BADASO_LICENSE_KEY={your license}
 ```
 
 - Jalankan perintah berikut ini untuk menginstall semua dependensi
