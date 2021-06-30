@@ -48,13 +48,25 @@ composer require uasoft-indonesia/badaso:^1.0
 php artisan badaso:setup
 ```
 
-- Run composer autoload, database migration & storage symlink.
+- Run composer autoload & database migration.
 
 ```bash
 composer dump-autoload
 php artisan migrate
+```
+
+- [optional] Symlink the storage folder if not yet
+
+```
 php artisan storage:link
 ```
+
+- [optional] Change filesystem to `public` ([readmore for cloud](https://badaso-docs.uatech.co.id/core-concept/storage)) 
+
+```
+FILESYSTEM_DRIVER=public
+```
+
 - Run seeders
 
 <badge>v2.x</badge> For Laravel 8
