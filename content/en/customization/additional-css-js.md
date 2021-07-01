@@ -1,7 +1,7 @@
 ---
 title: Additional CSS and JS
 description: 'Detail about adding new css or js file'
-position: 3
+position: 51
 category: 'Customization'
 version: 1
 ---

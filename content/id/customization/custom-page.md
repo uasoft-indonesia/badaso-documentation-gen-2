@@ -1,7 +1,7 @@
 ---
 title: Custom Page
 description: 'Detail tentang custom page'
-position: 5
+position: 52
 category: 'Customization'
 version: 1
 ---

@@ -1,7 +1,7 @@
 ---
 title: Relation
 description: 'Badaso CRUD generator relation field details'
-position: 11
+position: 19
 category: 'Components'
 version: 1
 ---

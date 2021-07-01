@@ -1,7 +1,7 @@
 ---
 title: Database Management
 description: 'Bagian database management badaso'
-position: 9
+position: 42
 category: 'Core Concept'
 version: 1
 ---

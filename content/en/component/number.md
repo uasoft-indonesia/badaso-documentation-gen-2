@@ -1,7 +1,7 @@
 ---
 title: Number
 description: 'Badaso CRUD generator number field details'
-position: 8
+position: 16
 category: 'Components'
 version: 1
 ---

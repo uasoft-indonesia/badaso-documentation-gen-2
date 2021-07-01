@@ -1,7 +1,7 @@
 ---
 title: Color Picker
 description: 'Badaso CRUD generator color picker field details'
-position: 3
+position: 10
 category: 'Components'
 version: 1
 ---

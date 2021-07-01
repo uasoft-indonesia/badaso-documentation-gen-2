@@ -1,7 +1,7 @@
 ---
 title: Upload File Multiple
 description: 'Badaso CRUD generator upload multiple file field details'
-position: 21
+position: 29
 category: 'Components'
 version: 1
 ---

@@ -1,7 +1,7 @@
 ---
 title: Overriding Controller
 description: 'Detail about overriding controller'
-position: 2
+position: 49
 category: 'Customization'
 version: 1
 ---

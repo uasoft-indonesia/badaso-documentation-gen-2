@@ -1,7 +1,7 @@
 ---
 title: URL
 description: 'Badaso CRUD generator URL field details'
-position: 25
+position: 33
 category: 'Components'
 version: 1
 ---

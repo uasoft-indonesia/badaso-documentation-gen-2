@@ -1,7 +1,7 @@
 ---
 title: Checkbox
 description: 'Badaso CRUD generator checkbox field details'
-position: 1
+position: 8
 category: 'Components'
 version: 1
 ---

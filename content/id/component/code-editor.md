@@ -1,7 +1,7 @@
 ---
 title: Code Editor
 description: 'Badaso CRUD generator code editor field details'
-position: 2
+position: 9
 category: 'Components'
 version: 1
 ---

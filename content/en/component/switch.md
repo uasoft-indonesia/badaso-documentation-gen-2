@@ -1,7 +1,7 @@
 ---
 title: Switch
 description: 'Badaso CRUD generator switch field details'
-position: 16
+position: 24
 category: 'Components'
 version: 1
 ---

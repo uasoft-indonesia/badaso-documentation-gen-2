@@ -1,7 +1,7 @@
 ---
 title: Plugins
 description: 'Bagian plugins badaso'
-position: 12
+position: 45
 category: 'Core Concept'
 version: 1
 ---

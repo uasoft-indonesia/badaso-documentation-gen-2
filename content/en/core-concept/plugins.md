@@ -1,7 +1,7 @@
 ---
 title: Plugins
 description: 'Badaso plugins section'
-position: 12
+position: 45
 category: 'Core Concept'
 version: 1
 ---

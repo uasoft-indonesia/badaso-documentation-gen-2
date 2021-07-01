@@ -1,7 +1,7 @@
 ---
 title: Custom Widget
 description: 'Detail tentang customization widget'
-position: 6
+position: 53
 category: 'Customization'
 version: 1
 ---

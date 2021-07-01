@@ -1,7 +1,7 @@
 ---
 title: Text Area
 description: 'Badaso CRUD generator text area field details'
-position: 19
+position: 26
 category: 'Components'
 version: 1
 ---

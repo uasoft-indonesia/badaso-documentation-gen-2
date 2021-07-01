@@ -1,7 +1,7 @@
 ---
 title: Role dan Permission
 description: 'Bagian role dan permission badaso'
-position: 3
+position: 36
 category: 'Core Concept'
 version: 1
 ---

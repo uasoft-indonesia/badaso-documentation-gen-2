@@ -1,7 +1,7 @@
 ---
 title: Introduction
 description: 'Detail about customization'
-position: 1
+position: 48
 category: 'Customization'
 version: 1
 ---

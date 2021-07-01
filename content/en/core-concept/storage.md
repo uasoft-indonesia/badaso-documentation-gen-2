@@ -1,7 +1,7 @@
 ---
 title: Storage
 description: 'Badaso storage section'
-position: 1
+position: 34
 category: 'Core Concept'
 version: 1
 ---

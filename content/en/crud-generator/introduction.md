@@ -1,7 +1,7 @@
 ---
 title: Introduction
 description: 'The introduction for CRUD generator'
-position: 1
+position: 7
 category: 'CRUD Generator'
 version: 1
 ---
