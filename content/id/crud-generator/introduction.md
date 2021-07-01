@@ -51,7 +51,7 @@ Ketika menambahkan atau mengubah CRUD yang telah ada, kamu akan melihat beberapa
 
 - Create Soft Delete
 
-  Buat soft delete jika membutuhkan data yang di hapus dapat di kembalikan ulang
+  Buat soft delete jika membutuhkan data yang di hapus dapat di kembalikan ulang, khusus untuk soft delete sebelum mengaktifkan ini pastikan terlebidahulu pada table kamu terdapat colums dengan nama "deleted_at" dan tipe data "timestamp"
 
 - Display Name (Plural)
 

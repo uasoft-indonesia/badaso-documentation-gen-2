@@ -51,7 +51,7 @@ When adding or editing an existing CRUD, you will see some information that you 
 
 - Create Soft Delete
 
-  Make a soft delete if you need the deleted data can be returned
+  Make a soft delete if you need the deleted data can be returned, especially for soft delete before activating this, make sure that your table has columns with the name "deleted_at" and the data type "timestamp" 
 
 - Display Name (Plural)
 
