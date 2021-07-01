@@ -20,6 +20,67 @@ When adding or editing an existing CRUD, you will see some information that you 
 
 ![generate-crud](introduction/generate-crud.png)
 
+## Add CRUD
+
+- Table Name
+
+  The name of the table to create a CRUD generator
+
+- Display Name (Singular)
+
+  This name is to be displayed in the breadcrumb and the title of the browse data table
+- URL Slug (must be unique)
+
+  This name is to be displayed on the url address as a slug which will later become a differentiating page for browsing other data tables, the slug name must be unique
+
+- Model Name
+
+  In the form of a combination of the namespace and name class on the model, for example: App/Models/User. Badaso will use your model for CRUD proses
+  
+- Order Columns
+
+  Select the column name to be the initial order of the browse data table
+
+- Generate Permissions
+
+  Turn on generate permissions to automatically generate CRUD data table user permissions
+
+- Server Side
+
+  Turn on server side if you need data querying the server and for handling large amounts of data
+
+- Create Soft Delete
+
+  Make a soft delete if you need the deleted data can be returned
+
+- Display Name (Plural)
+
+  The name entered in the display name will be displayed on the admin menu item
+
+- Icon
+
+  Icon that will be displayed on the admin menu item
+
+- Controller Name
+
+  Overrite controller CRUD generator by inputting namespace and class name in controller, for example: App\Http\Controllers\TestController
+
+- Order Display Column
+
+  The column selected in this section will be filled with numbers automatically to sort the data
+
+- Order Direction
+
+  There are two options for sorting data in ascending or descending order
+
+- Active Event Notification
+
+  Events to send notifications, there are options On Create notification event when creating new data, On Read notification event when reading data, On Update notification event when editing data, and On Delete notification event when deleting data.
+
+- Description
+
+  Provide a description of the table data generator CRUD
+
 ## Form Result
 
 The following is the display result of field that available at Badaso.
