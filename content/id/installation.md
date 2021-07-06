@@ -48,7 +48,6 @@ php artisan badaso:setup
 
 - Jalankan composer autoload & migrasi database.
 ```
-composer dump-autoload
 php artisan migrate
 ```
 
@@ -58,13 +57,18 @@ php artisan migrate
 php artisan storage:link
 ```
 
-- [optional] Ubah filesystem driver menjadi `public` ([lihat disini untuk cloud](https://badaso-docs.uatech.co.id/core-concept/storage)) 
+- Untuk Laravel 8 ubah filesystem driver menjadi `public` ([lihat disini untuk cloud](https://badaso-docs.uatech.co.id/core-concept/storage)) 
 
 ```
 FILESYSTEM_DRIVER=public
 ```
 
-- Jalankan perintah seeder
+- Jalankan composer autoload dan seeder
+
+```
+composer dump-autoload
+```
+<br/>
 
 <badge>v2.x</badge> Untuk Laravel 8
 ```

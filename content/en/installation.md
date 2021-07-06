@@ -68,6 +68,8 @@ FILESYSTEM_DRIVER=public
 composer dump-autoload
 ```
 
+<br/>
+
 <badge>v2.x</badge> For Laravel 8
 ```
 php artisan db:seed --class="Database\Seeders\Badaso\BadasoSeeder"
