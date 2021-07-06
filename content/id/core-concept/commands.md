@@ -1,7 +1,7 @@
 ---
 title: Perintah
 description: 'Bagian perintah badaso'
-position: 8
+position: 41
 category: 'Core Concept'
 version: 1
 ---

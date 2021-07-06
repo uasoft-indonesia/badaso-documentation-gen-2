@@ -1,7 +1,7 @@
 ---
 title: Command
 description: 'Badaso command section'
-position: 8
+position: 41
 category: 'Core Concept'
 version: 1
 ---

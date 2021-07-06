@@ -1,7 +1,7 @@
 ---
 title: Multi Language
 description: 'Badaso multi language section'
-position: 7
+position: 40
 category: 'Core Concept'
 version: 1
 ---

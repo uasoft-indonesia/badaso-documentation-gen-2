@@ -1,7 +1,7 @@
 ---
 title: Select Multiple
 description: 'Badaso CRUD generator select multiple field details'
-position: 13
+position: 21
 category: 'Components'
 version: 1
 ---

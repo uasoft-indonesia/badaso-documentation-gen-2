@@ -1,7 +1,7 @@
 ---
 title: Hidden
 description: 'Badaso CRUD generator hidden field details'
-position: 7
+position: 15
 category: 'Components'
 version: 1
 ---

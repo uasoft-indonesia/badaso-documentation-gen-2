@@ -1,7 +1,7 @@
 ---
 title: Slider
 description: 'Badaso CRUD generator slider field details'
-position: 15
+position: 23
 category: 'Components'
 version: 1
 ---

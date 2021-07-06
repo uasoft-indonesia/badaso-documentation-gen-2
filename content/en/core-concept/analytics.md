@@ -1,7 +1,7 @@
 ---
 title: Analytics
 description: 'Badaso analytics section'
-position: 13
+position: 46
 category: 'Core Concept'
 version: 1
 ---

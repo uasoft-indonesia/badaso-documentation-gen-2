@@ -1,7 +1,7 @@
 ---
 title: Date
 description: 'Badaso CRUD generator date field details'
-position: 4
+position: 11
 category: 'Components'
 version: 1
 ---

@@ -1,7 +1,7 @@
 ---
 title: Upload Image Multiple
 description: 'Badaso CRUD generator upload multiple image field details'
-position: 23
+position: 31
 category: 'Components'
 version: 1
 ---
