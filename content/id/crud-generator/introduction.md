@@ -20,6 +20,67 @@ Ketika menambahkan atau mengubah CRUD yang telah ada, kamu akan melihat beberapa
 
 ![generate-crud](/crud-generator/introduction/generate-crud.png)
 
+## Add CRUD
+
+- Table Name
+
+  Nama table untuk membuat CRUD generator
+
+- Display Name (Singular)
+
+  Nama ini untuk di tampilkan pada breadcrumb dan title dari browse data tabel 
+- URL Slug (must be unique)
+
+  Nama ini untuk di tampilkan pada alamat url sebagai slug yang nanti akan menjadi pembeda page untuk browse data table lain, nama slug harus bersifat unique
+
+- Model Name
+
+  Berupa gambungan dari namespace dan name class pada model, contoh : App/Models/User. Badaso akan menggunakan model anda untuk proses CRUD
+  
+- Order Columns
+
+  Pilih nama column untuk di jadikan urutan awal dari browse data table 
+
+- Generate Permission
+
+  Hidupkan generate permission untuk membuat user permission CRUD data table secara otomatis
+
+- Server Side
+
+  Hidupkan server side jika membutuhkan data secara query pada server dan untuk menagani data dalam jumlah besar 
+
+- Create Soft Delete
+
+  Buat soft delete jika membutuhkan data yang di hapus dapat di kembalikan ulang, khusus untuk soft delete sebelum mengaktifkan ini pastikan terlebidahulu pada table kamu terdapat colums dengan nama "deleted_at" dan tipe data "timestamp"
+
+- Display Name (Plural)
+
+  Nama yang di isi pada display name akan ditampilkan pada item menu admin
+
+- Icon
+
+  Icon yang akan ditampilkan pada item admin menu 
+
+- Controller Name
+
+  Overrite controller CRUD generator dengan menginputkan namespace dan nama class pada conttroler, contoh : App\Http\Controllers\TestController
+
+- Order Display Column
+
+  Column yang di pilih pada bagian ini akan diisi dengan angka secara otomatis untuk mengurutkan data
+
+- Order Direction
+
+  Terdapat dua pilihan untuk mengurutkan data secara asscending atau descending
+
+- Active Event Notification
+
+  Event untuk mengirimkan notifikasi, terdapat pilihan On Create event notifikasi saat membuat data baru, On Read event notifikasi saat membaca data, On Update event notifikasi saat mengedit data, dan On Delete event notifikasi saat menghapus data.
+
+- Description
+
+  Memberikan desckripsi pada CRUD generator data tabel
+
 ## Hasil Form
 
 Berikut ini hasil tampilan dari field yang tersedia di Badaso.
