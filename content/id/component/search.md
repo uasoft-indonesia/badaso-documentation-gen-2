@@ -1,7 +1,7 @@
 ---
 title: Search
 description: 'Badaso CRUD generator search field details'
-position: 12
+position: 20
 category: 'Components'
 version: 1
 ---

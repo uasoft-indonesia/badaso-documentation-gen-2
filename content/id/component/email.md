@@ -1,7 +1,7 @@
 ---
 title: Email
 description: 'Badaso CRUD generator email field details'
-position: 7
+position: 14
 category: 'Components'
 version: 1
 ---

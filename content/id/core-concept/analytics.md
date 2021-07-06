@@ -1,7 +1,7 @@
 ---
 title: Analytics
 description: 'Bagian badaso analytics'
-position: 13
+position: 46
 category: 'Core Concept'
 version: 1
 ---

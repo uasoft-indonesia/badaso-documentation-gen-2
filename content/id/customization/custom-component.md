@@ -1,7 +1,7 @@
 ---
 title: Custom Component
 description: 'Detail tentang custom component'
-position: 10
+position: 57
 category: 'Customization'
 version: 1
 ---

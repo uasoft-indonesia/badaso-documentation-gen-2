@@ -1,7 +1,7 @@
 ---
 title: Text
 description: 'Badaso CRUD generator text field details'
-position: 18
+position: 27
 category: 'Components'
 version: 1
 ---

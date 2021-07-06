@@ -1,7 +1,7 @@
 ---
 title: Radio
 description: 'Badaso CRUD generator radio field details'
-position: 10
+position: 18
 category: 'Components'
 version: 1
 ---

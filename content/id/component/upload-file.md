@@ -1,7 +1,7 @@
 ---
 title: Upload File
 description: 'Badaso CRUD generator upload file field details'
-position: 22
+position: 30
 category: 'Components'
 version: 1
 ---

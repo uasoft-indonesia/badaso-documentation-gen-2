@@ -1,7 +1,7 @@
 ---
 title: Custom Utilities
 description: 'Detail about customization utilities'
-position: 8
+position: 55
 category: 'Customization'
 version: 1
 ---

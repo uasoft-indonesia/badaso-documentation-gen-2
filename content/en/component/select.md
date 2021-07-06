@@ -1,7 +1,7 @@
 ---
 title: Select
 description: 'Badaso CRUD generator select field details'
-position: 14
+position: 22
 category: 'Components'
 version: 1
 ---

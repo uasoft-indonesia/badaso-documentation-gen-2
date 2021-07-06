@@ -1,7 +1,7 @@
 ---
 title: Tags
 description: 'Badaso CRUD generator tags field details'
-position: 17
+position: 25
 category: 'Components'
 version: 1
 ---

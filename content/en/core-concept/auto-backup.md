@@ -1,7 +1,7 @@
 ---
 title: Auto Backup
 description: 'Badaso auto backup section'
-position: 10
+position: 43
 category: 'Core Concept'
 version: 1
 ---

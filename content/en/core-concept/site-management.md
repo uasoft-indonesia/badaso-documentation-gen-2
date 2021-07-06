@@ -1,7 +1,7 @@
 ---
 title: Site Management
 description: 'Badaso site management section'
-position: 5
+position: 38
 category: 'Core Concept'
 version: 1
 ---

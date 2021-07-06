@@ -1,7 +1,7 @@
 ---
 title: Time
 description: 'Badaso CRUD generator time field details'
-position: 20
+position: 28
 category: 'Components'
 version: 1
 ---

@@ -1,7 +1,7 @@
 ---
 title: Helpers
 description: 'Badaso helpers section'
-position: 6
+position: 39
 category: 'Core Concept'
 version: 1
 ---

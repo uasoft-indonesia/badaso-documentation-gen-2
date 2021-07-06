@@ -1,7 +1,7 @@
 ---
 title: Password
 description: 'Badaso CRUD generator password field details'
-position: 9
+position: 17
 category: 'Components'
 version: 1
 ---
