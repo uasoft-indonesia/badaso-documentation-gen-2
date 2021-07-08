@@ -22,14 +22,22 @@ Berikut langkah-langkah untuk mendaftar dan mendapatkan lisensi di badaso dashbo
 
 ## Langkah Instalasi
 
-Setelah mendapatkan lisensi, anda dapat melanjutkan ke instalasi badaso.
+### Pada aplikasi baru
 
-- Menginstal badaso sangatlah mudah. Setelah [laravel terinstal](https://laravel.com/docs/8.x/installation), kamu dapat menambahkan badaso dengan perintah berikut ini.
+- Buat project laravel yang sudah terinstall badaso menggunakan composer
+
+```
+composer create-project badaso/starter your_project_name
+```
+
+### Pada aplikasi yang sudah ada
+
+- Kamu dapat menambahkan badaso pada aplikasi laravel kamu dengan perintah berikut ini.
 
 <badge>v2.x</badge> For Laravel 8
 
 ```bash
-composer require uasoft-indonesia/badaso
+composer require badaso/core
 ```
 
 <br />
@@ -37,7 +45,7 @@ composer require uasoft-indonesia/badaso
 <badge>v1.x</badge> For Laravel 5, 6, 7
 
 ```bash
-composer require uasoft-indonesia/badaso:^1.0
+composer require badaso/core:^1.0
 ```
 
 - Jalankan perintah berikut untuk memperbarui dependensi di package.json, webpack, dan publish vendor provider.
@@ -46,7 +54,9 @@ composer require uasoft-indonesia/badaso:^1.0
 php artisan badaso:setup
 ```
 
-- Jalankan composer autoload & migrasi database.
+### Setup selanjutnya
+
+- Jalankan migrasi database.
 ```
 php artisan migrate
 ```
@@ -57,7 +67,7 @@ php artisan migrate
 php artisan storage:link
 ```
 
-- Untuk Laravel 8 ubah filesystem driver menjadi `public` ([lihat disini untuk cloud](https://badaso-docs.uatech.co.id/core-concept/storage)) 
+- Untuk Laravel 8 dan proyek yang sudah ada, ubah filesystem driver menjadi `public` ([lihat disini untuk cloud](https://badaso-docs.uatech.co.id/core-concept/storage)) 
 
 ```
 FILESYSTEM_DRIVER=public
@@ -92,14 +102,21 @@ php artisan badaso:admin your@email.com --create
 BADASO_LICENSE_KEY={your license}
 ```
 
-- Jalankan perintah berikut ini untuk menginstall semua dependensi
+- Install javascript depedency
 ```
-npm install
-npm run dev
+yarn
+yarn dev
 ``` 
 
 - Jalankan project laravel dan akses /badaso-dashboard di browser untuk mengakses dashboard.
 
-```
+```bash
+# melalui local machine
 php artisan serve
+
+# atau
+
+# melalui docker (untuk badaso/starter atau bisa atur docker di aplikasi yang sudah ada)
+docker compose build
+docker compose up -d
 ```

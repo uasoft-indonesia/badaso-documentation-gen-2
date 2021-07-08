@@ -18,16 +18,23 @@ Before using Badaso, you need to get licence for `BADASO_LICENSE_KEY`. This key 
 
 - Save the license for your `.env` later.
 
-## Installation Step
+## Installation step
 
-After getting the license, you can proceed to Badaso installation.
+### On fresh project
 
-- Badaso is easy to install. [After creating your new Laravel](https://laravel.com/docs/8.x/installation) application you can include the Badaso package with the following command.
+- Create project via composer 
+```
+composer create-project badaso/starter your_project_name
+```
+
+### On existing project
+
+- You can install badaso on your existing application easily.
 
 <badge>v2.x</badge> For Laravel 8
 
 ```bash
-composer require uasoft-indonesia/badaso
+composer require badaso/core
 ```
 
 <br />
@@ -35,7 +42,7 @@ composer require uasoft-indonesia/badaso
 <badge>v1.x</badge> For Laravel 5, 6, 7
 
 ```bash
-composer require uasoft-indonesia/badaso:^1.0
+composer require badaso/core:^1.0
 ```
 
 - Run the following commands to update dependencies in package.json, webpack and publish vendor provider.
@@ -43,6 +50,8 @@ composer require uasoft-indonesia/badaso:^1.0
 ```bash
 php artisan badaso:setup
 ```
+
+### Next setup
 
 - Run database migration.
 
@@ -56,7 +65,7 @@ php artisan migrate
 php artisan storage:link
 ```
 
-- For laravel 8, change filesystem to `public` ([readmore for cloud](https://badaso-docs.uatech.co.id/core-concept/storage)) 
+- For laravel 8 and existing project, change filesystem to `public` ([readmore for cloud](https://badaso-docs.uatech.co.id/core-concept/storage)) 
 
 ```
 FILESYSTEM_DRIVER=public
@@ -97,12 +106,19 @@ BADASO_LICENSE_KEY={your license}
 - Run the following command to install all of dependencies.
 
 ```bash
-npm install
-npm run dev
+yarn
+yarn dev
 ```
 
 - Run your laravel project and access /badaso-dashboard path on your laravel.
 
 ```bash
+# via local machine
 php artisan serve
+
+# or
+
+# via docker (for badaso/starter or you can set your docker on your existing project)
+docker compose build
+docker compose up -d
 ```
