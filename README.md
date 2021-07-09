@@ -1,4 +1,6 @@
-# badaso documentation
+# Badaso Documentation
+
+Documentation for [Badaso](https://github.com/uasoft-indonesia/badaso)
 
 ## Setup
 

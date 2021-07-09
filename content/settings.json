@@ -5,6 +5,7 @@
     "light": "/full-logo-badaso.png",
     "dark": "/full-logo-badaso-background-black.png"
   },
-  "github": "uasoft-indonesia/badaso",
-  "twitter": ""
+  "github": "uasoft-indonesia/badaso-documentation",
+  "twitter": "",
+  "defaultDir": ""
 }
