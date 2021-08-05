@@ -6,28 +6,14 @@ category: 'Getting Started'
 version: 1
 ---
 
-## Preparation
-
-Before using Badaso, you need to get licence for `BADASO_LICENSE_KEY`. This key must be included in the laravel project's `.env`. Here are the steps for registering and getting a license on Badaso.
-
-- Register on [Badaso](https://badaso.uatech.co.id/dashboard)
-
-- Your license can be obtained in the License menu (License).
-
-![license](/installation/dashboard-licence.png)
-
-- Save the license for your `.env` later.
-
-## Installation step
-
-### On fresh project
+## On fresh project
 
 - Create project via composer 
 ```
 composer create-project badaso/starter your_project_name
 ```
 
-### On existing project
+## On existing project
 
 - You can install badaso on your existing application easily.
 
@@ -51,7 +37,7 @@ composer require badaso/core:^1.0
 php artisan badaso:setup
 ```
 
-### Next setup
+### Next setup (for fresh project or existing project)
 
 - Run database migration.
 
@@ -95,12 +81,6 @@ php artisan db:seed --class=BadasoSeeder
 
 ```bash
 php artisan badaso:admin your@email.com --create
-```
-
-- Add your license that you got before, to your `.env`
-
-```env [.env]
-BADASO_LICENSE_KEY={your license}
 ```
 
 - Run the following command to install all of dependencies.

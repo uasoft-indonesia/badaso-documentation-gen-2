@@ -16,6 +16,7 @@ features:
   - Log UI viewer
   - Daily database backup
   - Media manager
+  - Masih banyak lagi.
 ---
 
 <img src="/full-logo-badaso.png" class="light-img" width="1280" height="640" alt=""/>

@@ -6,23 +6,7 @@ category: 'Getting Started'
 version: 1
 ---
 
-## Persiapan
-
-Sebelum menggunakan badaso, kamu membutuhkan `BADASO_LICENSE_KEY`. Key ini harus disertakan pada `.env` project laravel.
-
-Berikut langkah-langkah untuk mendaftar dan mendapatkan lisensi di badaso dashboard.
-
-- Mendaftar di [Badaso](https://badaso.uatech.co.id/dashboard)
-
-- Lisensi anda dapat diperoleh pada menu Lisensi (License)
-
-![license](/installation/dashboard-licence.png)
-
-- Simpan license yang didapatkan untuk ditambahkan pada `.env` nanti.
-
-## Langkah Instalasi
-
-### Pada aplikasi baru
+## Pada aplikasi baru
 
 - Buat project laravel yang sudah terinstall badaso menggunakan composer
 
@@ -30,7 +14,7 @@ Berikut langkah-langkah untuk mendaftar dan mendapatkan lisensi di badaso dashbo
 composer create-project badaso/starter your_project_name
 ```
 
-### Pada aplikasi yang sudah ada
+## Pada aplikasi yang sudah ada
 
 - Kamu dapat menambahkan badaso pada aplikasi laravel kamu dengan perintah berikut ini.
 
@@ -54,7 +38,7 @@ composer require badaso/core:^1.0
 php artisan badaso:setup
 ```
 
-### Setup selanjutnya
+## Setup selanjutnya (untuk aplikasi baru atau sudah ada)
 
 - Jalankan migrasi database.
 ```
@@ -94,12 +78,6 @@ php artisan db:seed --class=BadasoSeeder
 - Buat akun admin dengan cara mengetikan perintah berikut ini.
 ```
 php artisan badaso:admin your@email.com --create
-```
-
-- Tambahkan license yang telah didapatkan tadi pada `.env`
-
-```env [.env]
-BADASO_LICENSE_KEY={your license}
 ```
 
 - Install javascript depedency
