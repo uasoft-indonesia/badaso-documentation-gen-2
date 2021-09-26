@@ -6,9 +6,9 @@ category: 'Getting Started'
 version: 1
 PHP:
   - PHP 7.x
+  - PHP 8.x
 Composer:
   - Composer 2
-  - Composer 1
 LaravelBadasoV1:
   - Laravel 5.x
   - Laravel 6.x
