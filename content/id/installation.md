@@ -59,10 +59,6 @@ FILESYSTEM_DRIVER=public
 
 - Jalankan composer autoload dan seeder
 
-```
-composer dump-autoload
-```
-<br/>
 
 <badge>v2.x</badge> Untuk Laravel 8
 ```
@@ -86,15 +82,9 @@ yarn
 yarn dev
 ``` 
 
-- Jalankan project laravel dan akses /badaso-dashboard di browser untuk mengakses dashboard.
+- Jalankan project laravel dan akses `/badaso-dashboard` di browser untuk mengakses dashboard.
 
 ```bash
 # melalui local machine
 php artisan serve
-
-# atau
-
-# melalui docker (untuk badaso/starter atau bisa atur docker di aplikasi yang sudah ada)
-docker compose build
-docker compose up -d
 ```

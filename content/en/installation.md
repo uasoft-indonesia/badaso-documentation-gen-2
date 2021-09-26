@@ -37,7 +37,7 @@ composer require badaso/core:^1.0
 php artisan badaso:setup
 ```
 
-### Next setup (for fresh project or existing project)
+## Next setup (for both fresh project or existing project)
 
 - Run database migration.
 
@@ -57,13 +57,8 @@ php artisan storage:link
 FILESYSTEM_DRIVER=public
 ```
 
-- Run composer autoload and seeders
+- Run badaso required seeder
 
-```
-composer dump-autoload
-```
-
-<br/>
 
 <badge>v2.x</badge> For Laravel 8
 ```
@@ -90,15 +85,8 @@ yarn
 yarn dev
 ```
 
-- Run your laravel project and access /badaso-dashboard path on your laravel.
+- Run your laravel project and access `/badaso-dashboard` path on your laravel.
 
 ```bash
-# via local machine
 php artisan serve
-
-# or
-
-# via docker (for badaso/starter or you can set your docker on your existing project)
-docker compose build
-docker compose up -d
 ```
